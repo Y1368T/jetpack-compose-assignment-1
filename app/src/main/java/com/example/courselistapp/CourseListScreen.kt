@@ -3,6 +3,7 @@
 package com.example.courselistapp
 
 import android.content.res.Configuration
+import com.example.courselistapp.ui.CourseListAppTheme
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -58,7 +59,3 @@ fun CourseListScreenPreview() {
     }
 }
 
-@Composable
-fun CourseListAppTheme(content: @Composable () -> Unit) {
-
-}
